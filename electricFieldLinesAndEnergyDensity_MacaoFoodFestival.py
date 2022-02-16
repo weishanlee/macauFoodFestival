@@ -113,7 +113,7 @@ energyDensity = Ex**2+Ey**2
 pcm=ax.pcolormesh(X,Y,np.log(energyDensity),shading='auto',cmap=plt.cm.get_cmap('plasma'))
 cbar = plt.colorbar(pcm)
 cbar.ax.get_yaxis().labelpad = 15
-cbar.ax.set_ylabel('Logarithmic energy density',rotation=270)
+cbar.ax.set_ylabel('Energy density in log scale',rotation=270)
 
 ax.set_xlabel('$x$')
 ax.set_ylabel('$y$')
